@@ -1,0 +1,57 @@
+html{
+    overflow: hidden;
+    text-align: center;
+}
+body{
+    margin:0;
+    padding:0;
+}
+.ag-canvas_svg{
+    background-color: aqua;
+    fill: rgb(150, 150, 150);
+    stroke: black;
+    height:80vh;
+    padding: 1vh 0;
+    width: 100vw;
+}
+.ag-canvas_svg path:hover{
+    stroke: rgb(225, 255, 0);
+    transform: scale(1.004);
+    stroke-width: 2px;
+    filter: drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.5));
+}
+#top_outer{
+    background-color: aqua;
+    display: flex ;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 1vh;
+}
+#top_inner{
+    background-color: yellow;
+    padding: 0 3vh 3vh 3vh;
+    width: fit-content;
+    border-radius: 10px;
+}
+#top_inner h2{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(33, 132, 33);
+    stroke-width: 2px;
+}
+#Input{
+    padding:5px 2vw;
+}
+#Input::placeholder {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#Add{
+    padding: 5px;
+    background-color: rgb(0, 117, 25);
+    border-radius: 5px;
+    border-style: solid;
+    border-width:1px;
+    background: linear-gradient(to right, #3498db, #2ecc71);
+
+}
+    
